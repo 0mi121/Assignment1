@@ -1,0 +1,41 @@
+Assignment 1
+
+Output of following program:-
+
+Question 1 :-
+1 . console.log(1+ “2” + “2”);
+Ans -  “122”
+Because second and third number is in double quotes so these numbers consider as string Hence output is 122
+
+Question 2 :-
+console.log(1 + +"2" + "2");
+Ans - “32”
++ or - operand in front of a string converts string into number. so here +"2" will become 2 hence the result will be 32.
+
+Question 3 :-
+console.log(1 + -"1" + "2");
+Ans - 2
++ or - operand in front of a string converts string into number. so here -"1" will become -1 hence 
+=1 + -"1" + "2"
+=1+ - 1 + 2
+=1- 1 + 2
+= ”02”
+So  the result will be 02.
+
+Question 4 :-
+console.log(+”1”+ "1" + "2");
+Ans - “112”
++ or - operand in front of a string converts string into number. so here +"1" will become 1 hence the result will be 112.
+
+Question 5 :-
+console.log(“A” - "B" + "2");
+Ans - “NaN2”
+Addition of letters or characters will give us NaN result and 2 is consider as string “2”
+Hence the result is NaN2 
+
+Question 6 :-
+console.log(“A” - "B" + 2);
+Ans - NaN
+Addition of letters or characters will give us NaN result and 2 is consider as number so addition of two different data types will give us NaN result hence the result will be NaN
+
+
